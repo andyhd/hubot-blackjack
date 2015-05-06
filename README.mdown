@@ -3,6 +3,8 @@
 Just a simple little Javascript (I'm not keen on Coffeescript) to let
 [Hubot][1] play one-on-one Blackjack.
 
+![Screenshot][4]
+
 Commands:
 
 * **hubot blackjack**
@@ -30,3 +32,4 @@ I think it's [quite readable][3].
 [1]: https://hubot.github.com/
 [2]: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
 [3]: https://github.com/andyhd/hubot-blackjack/blob/master/blackjack.js#L5
+[4]: https://dl.dropboxusercontent.com/u/1986317/hubot-blackjack.png
