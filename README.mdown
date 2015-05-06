@@ -1,0 +1,32 @@
+# Blackjack for Hubot
+
+Just a simple little Javascript (I'm not keen on Coffeescript) to let
+[Hubot][1] play one-on-one Blackjack.
+
+Commands:
+
+* **hubot blackjack**
+
+    start a game
+
+* **hubot hit [me]**
+
+    take another card
+
+* **hubot stand / stay / stick**
+
+    no more cards
+
+* **hubot fold**
+
+    stop playing
+
+I'm half-planning to extend this to include multiple players and betting,
+splitting and keeping scores - but don't hold your breath!
+
+I'm happy with the way I implemented the [Fisher-Yates shuffle][2] algorithm.
+I think it's [quite readable][3].
+
+[1]: https://hubot.github.com/
+[2]: https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
+[3]: https://github.com/andyhd/hubot-blackjack/blob/master/blackjack.js#L5
